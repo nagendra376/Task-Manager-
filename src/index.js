@@ -9,11 +9,11 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
 
-    {/* <HashRouter> // because github support Hashrouter */}
-    <BrowserRouter>
+    <HashRouter> // because github support Hashrouter
+      {/* <BrowserRouter> */}
       <App />
-    </BrowserRouter>
-    {/* </HashRouter> */}
+      {/* </BrowserRouter> */}
+    </HashRouter>
 
   </React.StrictMode>
 );
